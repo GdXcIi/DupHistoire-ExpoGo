@@ -1,50 +1,24 @@
-# Welcome to your Expo app 👋
+# README
+[DupHistoire](https://bit.ly/duphistoire) arrive sur votre smartphone !
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Get started
+## Installation de DupHistoire sur votre smartphone en utilisant Expo Go :
 
-1. Install dependencies
+### 1. Téléchargement du dépôt GitHub :
+Commencez par télécharger l'archive ZIP de ce dépôt GitHub puis extrayez tout les fichiers (par exemple : `C:\Users\test\Downloads\DupHistoire`, en considérant que `test` est le nom d'utilisateur), sur votre PC.
 
-   ```bash
-   npm install
-   ```
+### 2. Installation de Expo Go sur votre smartphone :
+Avant de lancer le serveur local sur votre PC, installez l'app _Expo Go_ sur votre smartphone, pour pouvoir ensuite visualiser l'application DupHistoire.
 
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+### 3. Création du serveur local :
+Rendez vous dan le terminal Windows puis tapez les commandes suivantes :
+```powershell
+cd "C:\Users\guigu\Downloads\DupHistoire"
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+```powershell
+npx expo start
+```
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 4. Exécution de l'application :
+Et enfin, scannez le QR Code généré par le terminal Windows, avec votre smartphone pour la visualiser dans l'application Expo Go.
